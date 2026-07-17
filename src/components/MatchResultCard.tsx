@@ -3,7 +3,7 @@ import type { FinalMatch } from "@/lib/types";
 export default function MatchResultCard({ match, rank }: { match: FinalMatch; rank: number }) {
   return (
     <div
-      className="animate-fade-in-up rounded-xl border border-hairline bg-canvas p-6 shadow-level-3 transition-shadow hover:shadow-level-4 sm:p-7"
+      className="animate-fade-in-up rounded-2xl border border-hairline bg-canvas p-6 transition-colors hover:border-hairline-strong sm:p-7"
       style={{ animationDelay: `${(rank - 1) * 90}ms` }}
     >
       <div className="flex items-start justify-between gap-4">
@@ -21,7 +21,7 @@ export default function MatchResultCard({ match, rank }: { match: FinalMatch; ra
         </div>
         <div className="flex shrink-0 flex-col items-end">
           <div className="text-2xl font-semibold tabular-nums text-link">{match.match_score}</div>
-          <div className="text-[11px] text-mute">매칭 점수</div>
+          <div className="text-[11px] text-mute">궁합 점수</div>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ export default function MatchResultCard({ match, rank }: { match: FinalMatch; ra
             href={match.source_url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-full bg-ink px-4 py-2 text-xs font-medium text-white transition-all hover:bg-[#333333] active:scale-[0.98]"
+            className="inline-flex items-center gap-1.5 rounded-full bg-ink px-4 py-2 text-xs font-medium text-white transition-all hover:bg-[#46433f] active:scale-[0.98]"
           >
             바로 지원하기
             <span aria-hidden="true">↗</span>

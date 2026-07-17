@@ -7,7 +7,7 @@ export default function ResultSkeleton() {
       </div>
       <div className="w-full space-y-4">
         {[0, 1, 2].map((i) => (
-          <div key={i} className="rounded-xl border border-hairline bg-canvas p-6 shadow-level-3 sm:p-7">
+          <div key={i} className="rounded-2xl border border-hairline bg-canvas p-6 sm:p-7">
             <div className="flex items-start justify-between gap-4">
               <div className="space-y-2">
                 <div className="h-4 w-14 animate-shimmer rounded-full" />

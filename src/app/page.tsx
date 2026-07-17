@@ -81,14 +81,14 @@ export default function Home() {
       <main className="mx-auto flex w-full max-w-2xl flex-col px-6 py-20 sm:py-28">
         <div className="text-center">
           <h1 className="text-3xl font-semibold tracking-[-0.04em] text-ink sm:text-4xl">
-            역발상 자소서 매칭 툴
+            나와 기업의 궁합은 몇 점일까?
           </h1>
           <p className="mt-3 text-base text-body-text">
-            내가 겪은 경험을 적으면, 지금 열려 있는 기업 자소서 문항 중 가장 잘 어울리는 걸 찾아드려요.
+            내가 겪은 경험을 적으면, 지금 열려 있는 기업 자소서 문항과의 궁합을 점수로 알려드려요.
           </p>
         </div>
 
-        <div className="mt-12 rounded-xl border border-hairline bg-canvas p-6 shadow-level-3 sm:p-8">
+        <div className="mt-12 rounded-2xl border border-hairline bg-canvas p-6 sm:p-8">
           <div className="space-y-5">
             <EpisodeField
               step={1}
@@ -135,7 +135,7 @@ export default function Home() {
             <button
               onClick={handleSubmit}
               disabled={!isValidLength || isLoading}
-              className="flex w-full items-center justify-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[#333333] active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-canvas-soft-2 disabled:text-mute disabled:active:scale-100"
+              className="flex w-full items-center justify-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[#46433f] active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-canvas-soft-2 disabled:text-mute disabled:active:scale-100"
             >
               {isLoading ? (
                 <>
@@ -143,13 +143,13 @@ export default function Home() {
                   분석 중...
                 </>
               ) : (
-                "매칭 시작하기"
+                "궁합 확인하기"
               )}
             </button>
 
             {!allFieldsFilled && (
               <p className="text-center text-xs text-mute">
-                세 칸을 모두 채우면 매칭 정확도가 올라가요
+                세 칸을 모두 채우면 궁합 정확도가 올라가요
               </p>
             )}
             {status === "error" && (
