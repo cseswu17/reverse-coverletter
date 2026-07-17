@@ -1,0 +1,34 @@
+[
+  {
+    "company_name": "안랩",
+    "job_title": "정보 보안 운영 (인턴)",
+    "label": "지원동기",
+    "prompt": "본인이 지원하는 직무에 관심을 갖게 된 계기와 이 직무를 수행하기 위해 어떤 노력을 했는지 작성해 주세요. (700자)",
+    "source_url": "https://ahnlab.recruiter.co.kr/career/jobs/122325",
+    "application_deadline": "2026-07-26"
+  },
+  {
+    "company_name": "켑코솔라",
+    "job_title": "전략기획 - 계약 법무 (경력)",
+    "label": "직무역량",
+    "prompt": "지원분야에 필요한 직무능력을 습득하기 위해 받은 학교교육 또는 직업교육에 대해 기술하십시오. (분야, 과목명, 주요내용, 성과 등 / 온라인 교육 포함) (500자)",
+    "source_url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=NFdEVEJHcVd2Z3ZXSnhnSEdaQlcydz09",
+    "application_deadline": "2026-07-27"
+  },
+  {
+    "company_name": "행복나래",
+    "job_title": "재무 (신입)",
+    "label": "성장과정",
+    "prompt": "본인의 성장과정을 통해 성격의 장단점, 가치관, 태도 등이 잘 나타나도록 자신을 소개해 주십시오. (1500자)",
+    "source_url": "https://happynarae.saramin.co.kr/main/index",
+    "application_deadline": "2026-07-26"
+  },
+  {
+    "company_name": "코리안리재보험",
+    "job_title": "AI Assistant (인턴)",
+    "label": "지원동기",
+    "prompt": "당사 인턴 지원동기는 무엇이며, 인턴 입사 후 회사에서 이루고 싶은 목표는 무엇인가요? (500자 이내)",
+    "source_url": "https://koreanre.recruiter.co.kr/",
+    "application_deadline": "2026-07-26"
+  }
+]

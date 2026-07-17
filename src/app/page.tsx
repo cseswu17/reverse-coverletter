@@ -77,18 +77,18 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-zinc-50">
+    <div className="min-h-screen bg-canvas-soft">
       <main className="mx-auto flex w-full max-w-2xl flex-col px-6 py-20 sm:py-28">
         <div className="text-center">
-          <h1 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">
+          <h1 className="text-3xl font-semibold tracking-[-0.04em] text-ink sm:text-4xl">
             역발상 자소서 매칭 툴
           </h1>
-          <p className="mt-3 text-base font-medium text-zinc-500">
+          <p className="mt-3 text-base text-body-text">
             내가 겪은 경험을 적으면, 지금 열려 있는 기업 자소서 문항 중 가장 잘 어울리는 걸 찾아드려요.
           </p>
         </div>
 
-        <div className="mt-12 rounded-3xl border border-zinc-200/60 bg-white p-6 shadow-sm sm:p-8">
+        <div className="mt-12 rounded-xl border border-hairline bg-canvas p-6 shadow-level-3 sm:p-8">
           <div className="space-y-5">
             <EpisodeField
               step={1}
@@ -123,11 +123,11 @@ export default function Home() {
                 type="button"
                 onClick={handleFillExample}
                 disabled={isLoading}
-                className="rounded-full border border-zinc-200 px-3.5 py-1.5 text-xs font-medium text-zinc-500 transition-all hover:border-zinc-300 hover:text-zinc-700 active:scale-[0.98] disabled:opacity-50"
+                className="rounded-full border border-hairline bg-canvas px-3.5 py-1.5 text-xs font-medium text-body-text transition-all hover:border-hairline-strong hover:text-ink active:scale-[0.98] disabled:opacity-50"
               >
                 ✏️ 예시 경험 가져오기
               </button>
-              <span className="text-xs font-medium tabular-nums text-zinc-400">
+              <span className="text-xs tabular-nums text-mute">
                 {trimmedLength} / {MAX_EPISODE_LENGTH}
               </span>
             </div>
@@ -135,7 +135,7 @@ export default function Home() {
             <button
               onClick={handleSubmit}
               disabled={!isValidLength || isLoading}
-              className="flex w-full items-center justify-center gap-2 rounded-2xl bg-zinc-900 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-zinc-800 active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-zinc-200 disabled:text-zinc-400 disabled:active:scale-100"
+              className="flex w-full items-center justify-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[#333333] active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-canvas-soft-2 disabled:text-mute disabled:active:scale-100"
             >
               {isLoading ? (
                 <>
@@ -148,12 +148,12 @@ export default function Home() {
             </button>
 
             {!allFieldsFilled && (
-              <p className="text-center text-xs font-medium text-zinc-400">
+              <p className="text-center text-xs text-mute">
                 세 칸을 모두 채우면 매칭 정확도가 올라가요
               </p>
             )}
             {status === "error" && (
-              <p className="rounded-2xl bg-red-50 px-4 py-3 text-sm font-medium text-red-600">
+              <p className="rounded-md bg-[#f7d4d6] px-4 py-3 text-sm font-medium text-[#c50000]">
                 {errorMessage}
               </p>
             )}
@@ -164,7 +164,7 @@ export default function Home() {
           {isLoading && <ResultSkeleton />}
 
           {status === "success" && matches.length === 0 && (
-            <p className="rounded-3xl border border-dashed border-zinc-200 p-8 text-center text-sm font-medium text-zinc-400">
+            <p className="rounded-xl border border-dashed border-hairline p-8 text-center text-sm text-mute">
               아직 어울리는 문항을 찾지 못했어요. 경험을 조금 더 구체적으로 적어보세요.
             </p>
           )}
