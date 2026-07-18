@@ -8,6 +8,14 @@
     "application_deadline": "2026-07-26"
   },
   {
+    "company_name": "안랩",
+    "job_title": "정보 보안 운영 (인턴)",
+    "label": "자유 어필",
+    "prompt": "그 밖에 본인에 대해 어필하고 싶은 부분을 자유롭게 작성해 주세요. (1000자)",
+    "source_url": "https://ahnlab.recruiter.co.kr/career/jobs/122325",
+    "application_deadline": "2026-07-26"
+  },
+  {
     "company_name": "켑코솔라",
     "job_title": "전략기획 - 계약 법무 (경력)",
     "label": "직무역량",
@@ -30,5 +38,85 @@
     "prompt": "당사 인턴 지원동기는 무엇이며, 인턴 입사 후 회사에서 이루고 싶은 목표는 무엇인가요? (500자 이내)",
     "source_url": "https://koreanre.recruiter.co.kr/",
     "application_deadline": "2026-07-26"
+  },
+  {
+    "company_name": "인애이블퓨전",
+    "job_title": "System Integration Engineer (경력)",
+    "label": "지원동기",
+    "prompt": "당사에 지원하게 된 이유와 입사 후 포부를 기술해 주십시오 (제한 없음)",
+    "source_url": "https://www.enablefusion.com/recruit/view/id/45",
+    "application_deadline": "2026-08-21"
+  },
+  {
+    "company_name": "인애이블퓨전",
+    "job_title": "System Integration Engineer (경력)",
+    "label": "직무역량",
+    "prompt": "보유한 핵심역량과 기술스킬, 해당 역량/기술을 발전시키기 위해 노력한 경험에 대해 기술해 주십시오 (제한 없음)",
+    "source_url": "https://www.enablefusion.com/recruit/view/id/45",
+    "application_deadline": "2026-08-21"
+  },
+  {
+    "company_name": "인애이블퓨전",
+    "job_title": "System Integration Engineer (경력)",
+    "label": "협업경험",
+    "prompt": "협업을 통해 난관을 극복한 사례와 협업 과정에서 본인이 맡은 역할에 대해 기술해 주십시오 (제한 없음)",
+    "source_url": "https://www.enablefusion.com/recruit/view/id/45",
+    "application_deadline": "2026-08-21"
+  },
+  {
+    "company_name": "인애이블퓨전",
+    "job_title": "System Integration Engineer (경력)",
+    "label": "목표달성경험",
+    "prompt": "달성하기 어려운 목표를 설정하고 성취한 경험에 대해 자세히 기술해 주십시오 (제한 없음)",
+    "source_url": "https://www.enablefusion.com/recruit/view/id/45",
+    "application_deadline": "2026-08-21"
+  },
+  {
+    "company_name": "KT&G",
+    "job_title": "글로벌 사업개발 (계약직)",
+    "label": "직무역량",
+    "prompt": "경력사항 및 보유 역량에 대하여 기술하여 주시기 바랍니다. ※ 실제 수행업무 위주로 상세히 기술 (최소 500자, 최대 1,500자 입력가능)",
+    "source_url": "https://ktng.recruiter.co.kr/career/home",
+    "application_deadline": "2026-07-28"
+  },
+  {
+    "company_name": "KT&G",
+    "job_title": "글로벌 사업개발 (계약직)",
+    "label": "입사 후 포부",
+    "prompt": "본인이 KT&G에 입사하게 된다면 지원 분야에서 무엇을 기여할 수 있는지 구체적으로 기술하여 주시기 바랍니다. (최소 500자, 최대 1,500자 입력가능)",
+    "source_url": "https://ktng.recruiter.co.kr/career/home",
+    "application_deadline": "2026-07-28"
+  },
+  {
+    "company_name": "삼립",
+    "job_title": "안전관리자(서천센터) (신입)",
+    "label": "지원동기",
+    "prompt": "삼립에 지원한 동기 및 입사 후 미래성장계획에 대하여 서술해 주십시오. (1000자)",
+    "source_url": "https://careers.sangmidang.co.kr/o/228234",
+    "application_deadline": "2026-07-27"
+  },
+  {
+    "company_name": "삼립",
+    "job_title": "안전관리자(서천센터) (신입)",
+    "label": "직무역량",
+    "prompt": "지원 직무와 관련하여, 본인의 전문성 또는 경험에 대하여 기술하여 주시기 바랍니다. (1000자)",
+    "source_url": "https://careers.sangmidang.co.kr/o/228234",
+    "application_deadline": "2026-07-27"
+  },
+  {
+    "company_name": "한국수산회",
+    "job_title": "정규직 6급 (신입)",
+    "label": "자기소개",
+    "prompt": "자기소개 (제한 없음)",
+    "source_url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607160002308",
+    "application_deadline": "2026-07-22"
+  },
+  {
+    "company_name": "한국수산회",
+    "job_title": "정규직 6급 (신입)",
+    "label": "지원동기",
+    "prompt": "지원동기 (제한 없음)",
+    "source_url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607160002308",
+    "application_deadline": "2026-07-22"
   }
 ]
