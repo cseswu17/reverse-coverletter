@@ -36,7 +36,15 @@ export default function MatchResultCard({ match, rank }: { match: FinalMatch; ra
         “{match.prompt}”
       </p>
 
-      <div className="mt-4 flex gap-2.5 rounded-md bg-link-bg-soft/40 p-4">
+      <div className="mt-3 flex gap-2 px-1">
+        <span className="mt-0.5 text-xs leading-none">🎯</span>
+        <p className="text-xs leading-relaxed text-mute">
+          <span className="font-medium text-body-text">이 직무가 원하는 것: </span>
+          {match.job_analysis}
+        </p>
+      </div>
+
+      <div className="mt-3 flex gap-2.5 rounded-md bg-link-bg-soft/40 p-4">
         <span className="mt-0.5 text-base leading-none">✨</span>
         <p className="text-sm leading-relaxed text-body-text">{match.reason}</p>
       </div>

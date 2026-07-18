@@ -24,6 +24,7 @@ export interface FinalMatch {
   prompt: string;
   source_url: string | null;
   similarity: number;
+  job_analysis: string;
   match_score: number;
   reason: string;
 }
